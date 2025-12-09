@@ -1,0 +1,95 @@
+header{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: lightgray;
+    margin: 15px 5px 100px 5px;
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+    animation: disco 10s ease-in-out 0s infinite both alternate;
+
+}
+
+@keyframes disco {
+        0% {background-color: lightgray;}
+        25% {background-color: lightblue;}
+        50% {background-color: lightgreen;}
+        75% {background-color: lightpink;}
+        100% {background-color: lightgray;}
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    gap: 30px;
+    background-color: blanchedalmond;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-image: url(Images/image.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#shoe-list {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    justify-content: center;
+    gap: 1em;
+}
+
+#product {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 10px 10px 5px gray;
+}
+
+#product p {
+    font-weight: 900;
+    color: rgb(134, 233, 228);
+}
+
+#product span {
+    font-weight: 800;
+    color:antiquewhite;
+}
+#product img {
+    height: auto;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: lightgray;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Times New Roman', Times, serif;
+}
