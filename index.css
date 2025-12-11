@@ -92,5 +92,20 @@ footer {
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     font-family: 'Times New Roman', Times, serif;
+}
 
+@media (max-width: 600px) {
+    #shoe-list {
+        grid-template-columns: repeat(1,300px);
+    }
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+    #shoe-list {
+        grid-template-columns: repeat(2, 300px);
+    }
+}
+@media (min-width: 1025px) {
+    #shoe-list {
+        grid-template-columns: repeat(3, 300px);
+    }
 }
