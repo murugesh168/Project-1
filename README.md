@@ -23,6 +23,6 @@ Welcome to Shoe Hub, your one-stop destination for the latest and greatest in fo
 - Mobile app version for on-the-go shopping.
 
 ## Live Demo 
-- project-1-git-main-murugesh-vs-projects.vercel.app
+- https://project-1-git-main-murugesh-vs-projects.vercel.app
 
 Thank you for visiting Shoe Hub! We hope you enjoy your shopping experience!
