@@ -22,4 +22,7 @@ Welcome to Shoe Hub, your one-stop destination for the latest and greatest in fo
 - Implementation of product reviews and ratings.
 - Mobile app version for on-the-go shopping.
 
+## Live Demo 
+- https://demo-project-1-hazel.vercel.app
+
 Thank you for visiting Shoe Hub! We hope you enjoy your shopping experience!
